@@ -24,12 +24,54 @@
 \usepackage{caption}
 \captionsetup[figure]{labelformat=empty}
 
+\usepackage{color}
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\lstset{ frame=Ltb,
+	framerule=0pt,
+	aboveskip=0.5cm,
+	framextopmargin=3pt,
+	framexbottommargin=3pt,
+	framexleftmargin=0.4cm,
+	framesep=0pt,
+	rulesep=.4pt,
+	backgroundcolor=\color{gray97},
+	rulesepcolor=\color{black},
+	%
+	stringstyle=\ttfamily,
+	showstringspaces = false,
+	basicstyle=\small\ttfamily,
+	commentstyle=\color{gray45},
+	keywordstyle=\bfseries,
+	%
+	numbers=left,
+	numbersep=15pt,
+	numberstyle=\tiny,
+	numberfirstline = false,
+	breaklines=true,
+}
 
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+
+\lstdefinestyle{consola}
+{basicstyle=\scriptsize\bf\ttfamily,
+	backgroundcolor=\color{gray75},
+}
+
+\lstdefinestyle{Java}
+{language=Java,
+}
+\lstdefinestyle{Python}
+{language=Python,
+}
 
 \begin{document}
 
 \author{Javier Monescillo Buitrón}
-\title{Apuntes de la asignatura procesadores de Lenguajes}
+\title{Apuntes de la asignatura Procesadores de Lenguajes}
 \date{\today}
 
 \frontmatter
@@ -40,8 +82,18 @@
 \mainmatter
 \include{./TeX_files/chapter01}
 \include{./TeX_files/chapter02}
+\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
 
 \backmatter
 % bibliography, glossary and index would go here.
 
+\begin{thebibliography}{99}
+	\bibitem{PL1} Apuntes de la asignatura de Procesadores de lenguajes, Tema 3 Análisis Sintáctico
+	\bibitem{PL2} Apuntes de la asignatura de Procesadores de lenguajes, Tema 4 Análisis Sintáctico Descendente
+	\bibitem{fact} Factorización de una gramática libre de contexto  y eliminación de recursividad por la izquierda, Universidad de Costa Rica, Escuela de ciencias de la computación e informática :\url{http://www.di-mare.com/adolfo/cursos/2009-2/pp-A73280-A73372-A76757.pdf}
+	\bibitem{Proletool} Proletool, Software para la enseñanza y aprendizaje de Procesadores de Lenguajes
+	
+\end{thebibliography}
 \end{document}
