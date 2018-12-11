@@ -10,17 +10,29 @@
 \contentsline {section}{\numberline {2.1}\IeC {\textquestiondown }Cuando interesa utilizar un Procesador de Lenguajes?}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}\IeC {\textquestiondown }Cu\IeC {\'a}l es la funci\IeC {\'o}n del analizador l\IeC {\'e}xico?}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Funci\IeC {\'o}n del analizador l\IeC {\'e}xico}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Ejemplos con JFlex}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Tratamiento de errores}{7}{section.2.5}
 \contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis sint\IeC {\'a}ctico}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis sint\IeC {\'a}ctico descendente}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n al an\IeC {\'a}lisis sint\IeC {\'a}ctico descendente}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Gram\IeC {\'a}ticas LL(1) y LL(k)}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}C\IeC {\'a}lculo de Iniciales, Seguidores y S\IeC {\'\i }mbolos de predicci\IeC {\'o}n}{13}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Iniciales}{13}{subsection.4.3.1}
-\contentsline {subsubsection}{Anulables}{13}{section*.12}
-\contentsline {subsection}{\numberline {4.3.2}Seguidores}{14}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}S\IeC {\'\i }mbolos de predicci\IeC {\'o}n}{14}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Condici\IeC {\'o}n LL(1)}{15}{section.4.4}
-\contentsline {section}{\numberline {4.5}Gram\IeC {\'a}tica con recursividad por la izquierda}{15}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Recursividad por la izquierda}{15}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Gram\IeC {\'a}tica}{15}{subsection.4.5.2}
-\contentsline {chapter}{\numberline {5}An\IeC {\'a}lisis sint\IeC {\'a}ctico ascendente}{17}{chapter.5}
+\contentsline {section}{\numberline {3.1}\IeC {\textquestiondown }Qu\IeC {\'e} es un analizador sint\IeC {\'a}ctico?}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Funci\IeC {\'o}n del analizador sint\IeC {\'a}ctico}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Ejemplo funcionamiento}{10}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Gram\IeC {\'a}ticas libres de contexto}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Derivaci\IeC {\'o}n}{11}{section.3.4}
+\contentsline {section}{\numberline {3.5}\IeC {\'A}rboles sint\IeC {\'a}cticos}{11}{section.3.5}
+\contentsline {section}{\numberline {3.6}Ambig\IeC {\"u}edad}{12}{section.3.6}
+\contentsline {section}{\numberline {3.7}Estrategias de an\IeC {\'a}lisis sint\IeC {\'a}ctico}{12}{section.3.7}
+\contentsline {section}{\numberline {3.8}Tratamiento de error}{12}{section.3.8}
+\contentsline {section}{\numberline {3.9}Notacion BNF y EBNF}{12}{section.3.9}
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis sint\IeC {\'a}ctico descendente}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n al an\IeC {\'a}lisis sint\IeC {\'a}ctico descendente}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Gram\IeC {\'a}ticas LL(1) y LL(k)}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}C\IeC {\'a}lculo de Iniciales, Seguidores y S\IeC {\'\i }mbolos de predicci\IeC {\'o}n}{15}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Iniciales}{15}{subsection.4.3.1}
+\contentsline {subsubsection}{Anulables}{15}{section*.15}
+\contentsline {subsection}{\numberline {4.3.2}Seguidores}{16}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}S\IeC {\'\i }mbolos de predicci\IeC {\'o}n}{16}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Condici\IeC {\'o}n LL(1)}{17}{section.4.4}
+\contentsline {section}{\numberline {4.5}Gram\IeC {\'a}tica con recursividad por la izquierda}{17}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Recursividad por la izquierda}{17}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Gram\IeC {\'a}tica}{17}{subsection.4.5.2}
+\contentsline {chapter}{\numberline {5}An\IeC {\'a}lisis sint\IeC {\'a}ctico ascendente}{19}{chapter.5}
